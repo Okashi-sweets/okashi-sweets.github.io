@@ -1,0 +1,143 @@
+body {
+    background-color: white;
+}
+
+
+
+.tab-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tab {
+    background: Gray;
+    width: 30%;
+    border-radius: 10px 10px 0px 0px;
+    padding: 3px 12px;
+    order: -1;
+    text-align: center;
+}
+
+.tab-content {
+    width: 100%;
+    display: none;
+}
+
+/* アクティブなタブ */
+.tab-switch:checked+#Glitchless {
+    background: rgb(255, 217, 0);
+}
+
+.tab-switch:checked+#Orb {
+    background: rgb(1, 159, 1);
+}
+
+.tab-switch:checked+#Cloud {
+    background: lightgrey;
+}
+
+.tab-switch:checked+.tab+.tab-content {
+    display: block;
+}
+
+/* ラジオボタン非表示 */
+.tab-switch {
+    display: none;
+}
+
+.setswitch {
+    color: red;
+}
+
+.accordion {
+    list-style: none;
+    width: 80%;
+    background-color: azure;
+    border: 2px solid gray;
+    border-radius: 10px 10px 10px 10px;
+    margin: 5px;
+}
+
+.tech {
+    box-sizing: border-box;
+    list-style: none;
+    width: 80%;
+    height: 50px;
+    border: 1.5px solid black;
+    border-radius: 5px 5px 5px 5px;
+    margin: 10px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.tech-e {
+    box-sizing: border-box;
+    list-style: none;
+    width: 80%;
+    height: 50px;
+    border: 1.5px solid black;
+    border-radius: 5px 5px 5px 5px;
+    background-color: lightgreen;
+    margin: 10px;
+    vertical-align: middle;
+    line-height: 50px;
+    position: relative;
+}
+
+.tech-n {
+    box-sizing: border-box;
+    list-style: none;
+    width: 80%;
+    height: 50px;
+    border: 1.5px solid black;
+    border-radius: 5px 5px 5px 5px;
+    background-color: lightskyblue;
+    margin: 10px;
+    vertical-align: middle;
+    line-height: 50px;
+    position: relative;
+}
+
+.tech-h {
+    box-sizing: border-box;
+    list-style: none;
+    width: 80%;
+    height: 50px;
+    border: 1.5px solid black;
+    border-radius: 5px 5px 5px 5px;
+    background-color: lightsalmon;
+    margin: 10px;
+    vertical-align: middle;
+    line-height: 50px;
+    position: relative;
+}
+
+.tech-l {
+    box-sizing: border-box;
+    list-style: none;
+    width: 80%;
+    height: 50px;
+    border: 1.5px solid black;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #d584e0;
+    margin: 10px;
+    vertical-align: middle;
+    line-height: 50px;
+    position: relative;
+}
+
+.tech-text {
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    transform: translateY(-50%);
+}
+
+.target {
+    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    right: 1%;
+    transform: translateY(-50%);
+}
