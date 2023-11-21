@@ -49,8 +49,7 @@ body {
     color: red;
 }
 
-.accordion {
-    list-style: none;
+details {
     width: 80%;
     background-color: azure;
     border: 2px solid gray;
@@ -58,28 +57,25 @@ body {
     margin: 5px;
 }
 
+summary{
+    list-style: none;
+}
+
 .tech {
     box-sizing: border-box;
     list-style: none;
-    width: 80%;
     height: 50px;
-    border: 1.5px solid black;
-    border-radius: 5px 5px 5px 5px;
-    margin: 10px;
-    vertical-align: middle;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
     position: relative;
 }
 
 .tech-e {
     box-sizing: border-box;
     list-style: none;
-    width: 80%;
     height: 50px;
-    border: 1.5px solid black;
-    border-radius: 5px 5px 5px 5px;
     background-color: lightgreen;
-    margin: 10px;
-    vertical-align: middle;
+    border-radius: 10px 10px 10px 10px;
     line-height: 50px;
     position: relative;
 }
@@ -87,13 +83,9 @@ body {
 .tech-n {
     box-sizing: border-box;
     list-style: none;
-    width: 80%;
     height: 50px;
-    border: 1.5px solid black;
-    border-radius: 5px 5px 5px 5px;
     background-color: lightskyblue;
-    margin: 10px;
-    vertical-align: middle;
+    border-radius: 10px 10px 10px 10px;
     line-height: 50px;
     position: relative;
 }
@@ -101,13 +93,9 @@ body {
 .tech-h {
     box-sizing: border-box;
     list-style: none;
-    width: 80%;
     height: 50px;
-    border: 1.5px solid black;
-    border-radius: 5px 5px 5px 5px;
     background-color: lightsalmon;
-    margin: 10px;
-    vertical-align: middle;
+    border-radius: 10px 10px 10px 10px;
     line-height: 50px;
     position: relative;
 }
@@ -115,13 +103,9 @@ body {
 .tech-l {
     box-sizing: border-box;
     list-style: none;
-    width: 80%;
     height: 50px;
-    border: 1.5px solid black;
-    border-radius: 5px 5px 5px 5px;
     background-color: #d584e0;
-    margin: 10px;
-    vertical-align: middle;
+    border-radius: 10px 10px 10px 10px;
     line-height: 50px;
     position: relative;
 }
@@ -135,9 +119,15 @@ body {
 }
 
 .target {
-    vertical-align: middle;
+    
     position: absolute;
     top: 50%;
     right: 1%;
     transform: translateY(-50%);
 }
+
+  details[open] summary {
+    border-bottom: 1px solid black;
+    margin-bottom: 0.5px;
+  }
+  
