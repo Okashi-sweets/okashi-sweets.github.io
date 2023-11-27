@@ -9,19 +9,86 @@
   <body>
     <h1>11Exit</h1>
 
-    <h2>表示例</h2>
+    <h2>表示例</h2><small>クリックで開く</small>
     <details><summary class="tech-e" >安定ルート、初心者向け</summary>
-      被弾やミスのリスクが少ないルート。まずはこのルートで通せるようになろう。
+      被弾やミスのリスクが少ないルート。まずはこのルートで通せるようになろう。<br>
+      目標タイム
+      <table>
+        <tbody>
+          <tr>
+            <td>Glitchless</td>
+            <td>11:00</td>
+          </tr>
+          <tr>
+            <td>Orb</td>
+            <td>10:45</td>
+          </tr>
+          <tr>
+            <td>Cloud</td>
+            <td>10:10</td>
+          </tr>
+        </tbody>
+      </table>
     </details>
     <details><summary class="tech-n" >やや攻めルート、慣れてきた人向け</summary>
-      基本的に安定ルートと比べて秒単位で短くなるルート。このルートで通せたら一人前。
+      基本的にこのルートが並走で使われる攻めルート。このルートで通せたら一人前。<br>
+      目標タイム
+      <table>
+        <tbody>
+          <tr>
+            <td>Glitchless</td>
+            <td>10:45</td>
+          </tr>
+          <tr>
+            <td>Orb</td>
+            <td>10:30</td>
+          </tr>
+          <tr>
+            <td>Cloud</td>
+            <td>9:55</td>
+          </tr>
+        </tbody>
+      </table>
     </details>
     <details><summary class="tech-h" >攻めルート、上位タイム狙い向け</summary>
-    top10に入れるようなタイムが出せるようなルート。リセットが嵩むのは仕様。
+      top10に入れるようなタイムが出せるルート。リセットが嵩むのは仕様。よほどの自信がない限り並走で使うべきではない。<br>
+    目標タイム
+    <table>
+      <tbody>
+        <tr>
+          <td>Glitchless</td>
+          <td>10:40</td>
+        </tr>
+        <tr>
+          <td>Orb</td>
+          <td>10:25</td>
+        </tr>
+        <tr>
+          <td>Cloud</td>
+          <td>9:45</td>
+        </tr>
+      </tbody>
+    </table>
     </details>
     <details><summary class="tech-l" >ほぼ最速ルート、世界記録狙い向け</summary>
-    基本的に全て人力で可能な最速ルート。1面から出れなくてもくじけない精神が大事。<br>
+      基本的に全て人力で可能な最速ルート。基本的に安定全捨てなので1面から出れなくてもくじけない精神が大事。著者がそのレベルに達してないので間違ってる可能性あり。<br>
     目標タイム
+    <table>
+      <tbody>
+        <tr>
+          <td>Glitchless</td>
+          <td>10:35</td>
+        </tr>
+        <tr>
+          <td>Orb</td>
+          <td>10:20</td>
+        </tr>
+        <tr>
+          <td>Cloud</td>
+          <td>9:40</td>
+        </tr>
+      </tbody>
+    </table>
     </details>
 
     <div class="tab-wrap">
@@ -44,7 +111,7 @@
 
 <!--Glitchless-->
 
-    <input id="TAB-01" type="radio" name="TAB" class="tab-switch" /><label class="tab" id="Glitchless" for="TAB-01">Glitchless</label>
+    <input id="TAB-01" type="radio" name="TAB" class="tab-switch" checked="checked"/><label class="tab" id="Glitchless" for="TAB-01">Glitchless</label>
     <div class="tab-content">
 
       <h2>ルール</h2>
@@ -57,10 +124,25 @@
 
       <h2>コースごと解説</h2>
         <details><summary><h3>ヨースターとう コース2</h3></summary>
-          参考動画
+          右に進むだけ。土管や段差に突っかからないようにする。ここでマリオの基本的な動きを覚えよう。<br>
+          参考動画 
+          <div class="tips"><div class="tipshead">361?</div>
+          ゴール直前のクルクルブロックから慣性ジャンプ(ジャンプ直後に右を離す)をすることで残りカウント361でゴールできることがある。<br>
+          しかし成功しても2f(0.03秒)しか速くならない上に成功する確率は1/5である。<br>
+          さらに失敗した場合慣性ジャンプをしない場合より遅くなることもあるため、やらないほうがよい。<br>
+          (とはいえ慣性ジャンプなしと比べて-2f~+2fの範囲で収まることを考えればどちらでもよいのほうが正しい)
+          </div>
         </details>
         <details><summary><h3>ヨースターとう コース3</h3></summary>
-      
+      このコースではメッセージブロックジャンプをはじめ比較的高精度なジャンプを要求される。何度もやってゴールタイム259を安定して出せるようになろう。
+
+      <h4>メッセージブロックジャンプ</h4>
+      地形の模様を目安にジャンプするとよい。メッセージブロックに乗った後は最大ジャンプ(Bボタン押しっぱ)で次のブロックに乗れる。
+
+      <h4>プラットフォームブースト</h4>
+      茶色の回転するリフトの上を走ることでリフトの回転による右移動が加わり、より速く進むことができる(リフト1つにつき最大3fの短縮)。<br>
+      ゴールタイム259を出すには必須のテクニックなので必ず覚えよう。
+
         </details>
         <details><summary><h3>ヨースターとう コース4</h3></summary>
       
@@ -152,7 +234,7 @@
 
 <!--Cloud-->
 
-          <input id="TAB-03" type="radio" name="TAB" class="tab-switch" checked="checked"/><label class="tab" id="Cloud" for="TAB-03">Cloud</label>
+          <input id="TAB-03" type="radio" name="TAB" class="tab-switch"><label class="tab" id="Cloud" for="TAB-03">Cloud</label>
       <div class="tab-content">
         <h2>ルール</h2>
         <ul>
