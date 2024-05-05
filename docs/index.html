@@ -18,9 +18,20 @@
       themeColor:'#008b8b'
     }
   </script>
+    <script>
+  window.$docsify = {
+    // your config
+    // ...
+    plugins: [
+      EditOnGithubPlugin.create('https://github.com/Okashi-sweets/okashi-sweets.github.io/tree/main/docs')
+    ]
+  }
+
+  </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-gml.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js" type="text/javascript"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
 </body>
 </html>
