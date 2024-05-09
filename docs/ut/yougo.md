@@ -17,14 +17,14 @@ Undertaleでは存在しないカテゴリー。Any%に相当するのはNeutral
 All Skippable Textboxesの略。普通ではスキップできないテキストもすべてスキップ可能にしたmodを適用して走るカテゴリー。
 
 ### AYC
-All Yellow Creditsの略。TPEのエンディングですべてのモンスターの説明文を黄色にしてクリアするカテゴリー。
+All Yellow Creditsの略。[TPE](#tpe)のエンディングですべてのモンスターの説明文を黄色にしてクリアするカテゴリー。
 かつてはCEのカテゴリーだったが、現在はメインのその他カテゴリーに移動されている。
 
 ## B
 
 ### Bagel Storage
 Persistence Glitchを行いながらパンチカードを開いて部屋を出るバグ技。名前は発見者のOceanBagelから。<br>
-EEBPに使用される。
+[EEBP](#eebp)に使用される。
 
 ### beowulf Skip
 ホットランドのSerious Skipの準備として使われる技。左右パズル部屋の前にあるレーザー部屋でレーザーにパンチカードを開きながら当たりHPを1にする。<br>
