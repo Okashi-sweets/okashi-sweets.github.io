@@ -18,16 +18,12 @@
       themeColor:'#000080'
     }
   </script>
-    <script>
-  window.$docsify = {
-    // your config
-    // ...
-    plugins: [
-      EditOnGithubPlugin.create('https://github.com/Okashi-sweets/okashi-sweets.github.io/tree/main/docs')
-    ]
-  }
-
+  <script type="module">
+    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+    mermaid.initialize({ startOnLoad: true });
+    window.mermaid = mermaid;
   </script>
+  <script src="//unpkg.com/docsify-mermaid@2.0.1/dist/docsify-mermaid.js"></script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-gml.min.js"></script>
