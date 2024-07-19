@@ -3,3 +3,4 @@
 単発ネタを置く場所。
 
 [マリオワールド-Cloud](/other/smw-cloud.md)
+[スターアライズ-Any%](/other/ksa.md)
